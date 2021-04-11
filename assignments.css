@@ -1,9 +1,16 @@
 body{
     margin: 0;
-    background: #222;
-    font-family: 'Work Sans', sans-serif;
+    background: #0F2538;
+    font-family: Arial, Helvetica, sans-serif;
     font-weight: 400;
+
+
+    
+
+    box-sizing: border-box;
 }
+
+
 
 
 
@@ -13,7 +20,7 @@ body{
 }
 
 header{
-    background: #a4e6ed;
+    background: #dbdbdb;
 }
 
 header::after{
@@ -75,4 +82,41 @@ nav a::before{
 
 nav a:hover::before{
     width: 100%;
+}
+
+.header{
+    display: grid;
+    place-items: center;
+
+    
+    background-color: #dbdbdb70;
+    color: black;
+
+    text-decoration: none;
+
+    /* padding: 20px 20px 20px 15px; */
+}
+
+.assign1{
+    display: -moz-inline-stack;
+    /* background-color:white; */
+    color: white;
+    text-decoration: none;
+    padding-bottom: 10px;
+}
+
+.assign2{
+    display: -moz-inline-stack;
+    /* background-color:white; */
+    color: white;
+    text-decoration: none;
+    padding-bottom: 10px; 
+}
+
+.assign3{
+    display: -moz-inline-stack;
+    /* background-color:white; */
+    color: white;
+    text-decoration: none;
+    padding-bottom: 10px; 
 }
